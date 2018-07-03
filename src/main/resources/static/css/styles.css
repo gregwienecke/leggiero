@@ -1,0 +1,138 @@
+header a {
+	margin-left: 30px;
+}
+
+body {
+	background-image: url("../img/guitarHead.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+main {
+	width: 650px;
+	margin-top: 40px;
+}
+
+label {
+	width: 100px;
+}
+
+h4 {
+	background-color: blue;
+	color: black;
+	padding: 3px 5px 1px 5px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+
+input[type=submit] {
+	background-color: black;
+	color: #337ab7;
+	border: 1px solid #337ab7;
+	border-radius: 3px;
+	padding: 5px 10px 5px 10px;
+}
+
+input[type=submit]:hover {
+	color: #3cb8d1;
+	border: 1px solid #3cb8d1;
+}
+
+input[type=text], input[type=password], textarea {
+	background-color: #c3dbda;
+}
+
+
+select {
+	height: 25px;
+	background-color: #c3dbda;
+}
+
+select option {
+	background-color: #c3dbda;
+}
+
+select option:nth-of-type(even){
+	background-color: #bbb;
+}
+
+select option:nth-of-type(even){
+	background-color: #a8bcdb;
+}
+
+select option:hover {
+	background-color: blue;
+	color: white;
+}
+
+a:hover {
+	color: #3cb8d1;
+}
+
+.cover-container {
+	width: 650px;
+	margin: 0 0 0 8%;
+}
+
+.darkButton {
+	background-color: black;
+	color: #337ab7;
+	border: 1px solid #337ab7;
+}
+
+.darkButton:hover {
+	color: #3cb8d1;
+	border: 1px solid #3cb8d1;
+}
+
+.active {
+	color: #3cb8d1;
+}
+
+.boldHeader {
+	font-weight: bold;
+	color: #666666;
+}
+
+.calendarHeadingWithMargin {
+	margin: 30px 0 30px 0;
+}
+
+.calendarHeadings {
+	background-color: blue;
+	color: black;
+	display: inline-block;
+}
+
+.headerUsername {
+	color: #666;		
+}
+
+.sub {
+	margin-left: 20px;
+}
+
+#calendarPage {
+	background-image: none !important;
+	background: black !important;
+}
+
+#headerTitle {
+	display: inline-block;
+}
+
+#greeting {
+	background: linear-gradient(90deg, blue, #0262fc);
+}
+
+footer {
+	margin: 170px 0 0 0;
+}
+
+::selection {
+	background: blue;
+	color: white;
+}
+
