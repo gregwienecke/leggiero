@@ -48,7 +48,7 @@
 		<div class="row">
 			<div class="col-md-10">
 				<c:if test="${currentUser.getIsTeacher() == true}">
-               		<h4> Student name </h4>
+               		<h4> ${studentName} </h4>
                 </c:if>
                 <c:if test="${currentUser.getIsTeacher() == false}">
                		<h4> ${currentUser.firstName} </h4>

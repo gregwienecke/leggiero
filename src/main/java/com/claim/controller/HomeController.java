@@ -89,9 +89,11 @@ public class HomeController {
 		// If currentUser is a teacher:
 		if (currentUser.getIsTeacher()) {
 			String studentEmail = request.getParameter("studentEmail");
+			String studentName = request.getParameter("studentName");
 			ArrayList<Lesson> studentsLessons = lessonService.findLessons(studentEmail);
 			session.setAttribute("studentEmail", studentEmail);
-			session.setAttribute("studentsLessons", studentsLessons);						
+			session.setAttribute("studentsLessons", studentsLessons);	
+			session.setAttribute("studentName", studentName);
 			return new ModelAndView("lessons", "lesson", new Lesson());
 			
 		// Else if currentUser is a student:	

@@ -43,7 +43,7 @@
       	<c:forEach var="student" items="${studentsByTeacherEmail}">
       		<li>
       			<p> 
-      				<a href="lessons?studentEmail=${student.email}"> ${student.firstName} ${student.lastName} </a>      				
+      				<a href="lessons?studentEmail=${student.email}&studentName=${student.firstName}"> ${student.firstName} ${student.lastName} </a>      				
       			</p>
       		</li>
       	</c:forEach>
